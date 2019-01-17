@@ -17,6 +17,17 @@ compile（5.0以后api关键字取代）和interoperability是引入第三方库
 providedCompile：在编译时使用，运行时可以用其他容器替代，比如servlet api
 testCompile:测试阶段需要。
 
+4、插件使用
+apply plugin java/application（编译时引入jar包）
+
+5、maven库的依赖
+maven库的引用
+repository{
+	mavenLoacal()
+	mavenCentral()
+}
+
+
 
 # 命令
 gradle -v
